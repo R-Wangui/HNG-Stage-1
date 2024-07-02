@@ -1,7 +1,6 @@
 body {
     background-color: rgb(16, 2, 48);
     color: rgb(182, 182, 182);
-    /* color: azure; */
     font-family: monospace;
 }
 /* Styling for the container that holds everything in the main */
@@ -12,7 +11,6 @@ body {
     text-align: center;
     font-size: x-large;
     color:violet;
-    /* font-weight: 600; */
 }
 /* Styling for the hero section; image and personal data */
 .personaldata {
@@ -63,7 +61,6 @@ body {
     .header {
         text-align: center;
         font-size: large;
-        /* font-weight: 600; */
     }
     .personaldata {
         display: flex;

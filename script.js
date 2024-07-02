@@ -1,4 +1,4 @@
-// Add an event listener to display the time when the page loads
+// Add an event listener to display the time and day when the page loads
 document.addEventListener("DOMContentLoaded", function() {
     // Function to update the current time and day
     function updateTimeAndDay() {
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector('[data-testid="currentDay"]').textContent = dayOfWeek;
     }
 
-    // Initial call to update time and day
+    // Call the update time and day function
     updateTimeAndDay();
 
     // Update the time and day every second
