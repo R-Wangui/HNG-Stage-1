@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(16, 2, 48);
+    color: rgb(182, 182, 182);
+    /* color: azure; */
+    font-family: monospace;
+}
+/* Styling for the container that holds everything in the main */
+#maincontainer {
+    margin: 40px 40px 0px 40px;
+}
+.header {
+    text-align: center;
+    font-size: x-large;
+    color:violet;
+    /* font-weight: 600; */
+}
+/* Styling for the hero section; image and personal data */
+.personaldata {
+    display: flex;
+    gap: 120px;
+    margin: 20px 40px;
+    font-size: 20px;
+}
+.slackcredentials {
+    margin-top: 40px;
+}
+/* Styling for the Goals section */
+.mygoals {
+    margin: 40px; 
+    
+}
+.mygoals h2 {
+    font-size: 36px;
+    text-align: center;
+}
+.mygoals ol {
+    font-size: 20px;
+    line-height: 32px;
+}
+/* Styling for the footer */
+.footer {
+    padding: 60px;
+    border-top: 1px solid gray;
+    font-size: 20px;
+    text-align: center;
+
+}
+.footericons {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.footericon {
+    width: 50px;
+    height: 50px;
+}
+/* Responsiveness styling for tablet and mobile */
+@media (max-width: 768px) {
+    #maincontainer {
+        width: auto;
+        margin: 20px;
+    }
+    .header {
+        text-align: center;
+        font-size: large;
+        /* font-weight: 600; */
+    }
+    .personaldata {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 40px;
+        gap: 20px;
+        font-size: 20px;
+    }
+    .mygoals {
+        margin: 20px; 
+    }
+}
